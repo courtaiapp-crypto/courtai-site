@@ -10,7 +10,7 @@ export default function Privacy() {
     <div className="min-h-screen bg-black text-white">
       <div className="max-w-5xl mx-auto px-4 py-12">
         <div className="mb-8">
-          <Link to={createPageUrl("Home")}>
+          <Link to="/">
             <Button variant="outline" className="border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black mb-6">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Back to Home
@@ -409,7 +409,7 @@ export default function Privacy() {
           </section>
 
           <div className="mt-12 text-center">
-            <Link to={createPageUrl("Home")}>
+            <Link to="/">
               <Button className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-black hover:from-yellow-500 hover:to-yellow-700 px-8 py-3 rounded-full font-semibold">
                 Return to Court AI
               </Button>

@@ -311,7 +311,7 @@ export default function DeleteAccount() {
                 Back to Privacy Policy
               </Button>
             </Link>
-            <Link to={createPageUrl("Home")}>
+            <Link to="/">
               <Button className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-black hover:from-yellow-500 hover:to-yellow-700 px-8 py-3 rounded-full font-semibold">
                 Return to Home
               </Button>
